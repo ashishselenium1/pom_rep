@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="4" name="TestSuite" time="17.906" errors="0" skipped="0">
+<testsuite tests="4" failures="4" name="TestSuite" time="17.667" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.qtpselenium.facebook.pom.testcases.ChangePasswordTest" name="changePasswordTest" time="5.614">
+  <testcase classname="com.qtpselenium.facebook.pom.testcases.ChangePasswordTest" name="changePasswordTest" time="5.49">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.ChangePasswordTest.changePasswordTest(ChangePasswordTest.java:33)
@@ -150,7 +150,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	... 52 more
 </system-err>
   </testcase>
-  <testcase classname="com.qtpselenium.facebook.pom.testcases.LoginTest" name="doLogin" time="4.15">
+  <testcase classname="com.qtpselenium.facebook.pom.testcases.LoginTest" name="doLogin" time="4.047">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.LoginTest.doLogin(LoginTest.java:34)
@@ -234,7 +234,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	... 52 more
 </system-err>
   </testcase>
-  <testcase classname="com.qtpselenium.facebook.pom.testcases.LoginTest" name="doLogin" time="4.093">
+  <testcase classname="com.qtpselenium.facebook.pom.testcases.LoginTest" name="doLogin" time="4.072">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.LoginTest.doLogin(LoginTest.java:34)
@@ -313,7 +313,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	... 52 more
 </system-err>
   </testcase>
-  <testcase classname="com.qtpselenium.facebook.pom.testcases.ProfileTest" name="testProfile" time="4.049">
+  <testcase classname="com.qtpselenium.facebook.pom.testcases.ProfileTest" name="testProfile" time="4.058">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.ProfileTest.testProfile(ProfileTest.java:32)

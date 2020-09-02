@@ -1,23 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 23.161 sec <<< FAILURE!
-changePasswordTest(com.qtpselenium.facebook.pom.testcases.ChangePasswordTest)  Time elapsed: 5.614 sec  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 23.002 sec <<< FAILURE!
+changePasswordTest(com.qtpselenium.facebook.pom.testcases.ChangePasswordTest)  Time elapsed: 5.49 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.ChangePasswordTest.changePasswordTest(ChangePasswordTest.java:33)
 
-doLogin(com.qtpselenium.facebook.pom.testcases.LoginTest)  Time elapsed: 4.15 sec  <<< FAILURE!
+doLogin(com.qtpselenium.facebook.pom.testcases.LoginTest)  Time elapsed: 4.047 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.LoginTest.doLogin(LoginTest.java:34)
 
-doLogin(com.qtpselenium.facebook.pom.testcases.LoginTest)  Time elapsed: 4.093 sec  <<< FAILURE!
+doLogin(com.qtpselenium.facebook.pom.testcases.LoginTest)  Time elapsed: 4.072 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.LoginTest.doLogin(LoginTest.java:34)
 
-testProfile(com.qtpselenium.facebook.pom.testcases.ProfileTest)  Time elapsed: 4.049 sec  <<< FAILURE!
+testProfile(com.qtpselenium.facebook.pom.testcases.ProfileTest)  Time elapsed: 4.058 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.qtpselenium.facebook.pom.testcases.base.BaseTest.init(BaseTest.java:65)
 	at com.qtpselenium.facebook.pom.testcases.ProfileTest.testProfile(ProfileTest.java:32)
